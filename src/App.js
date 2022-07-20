@@ -54,7 +54,10 @@ function App() {
         
           {boxProduct.map((boxProduct,index) => {
             return (
-              <div key={index}> {JSON.stringify(boxProduct)}</div>
+              <div className='satin-alinan'>
+                <div key={index}> {boxProduct.title}</div>
+                <img src={boxProduct.image}/>
+              </div>
             )
           })}
 
