@@ -9,8 +9,15 @@
   grid-template-columns: repeat(4,1fr);
 }
 
+.satin-alinan {
+  min-width: 7%;
+}
 
 .satin-alinan > img {
   width: auto;
   height: 50px;
+}
+.list {
+  display: flex;
+  list-style-type: none;
 }

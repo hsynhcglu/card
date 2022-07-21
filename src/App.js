@@ -51,16 +51,16 @@ function App() {
         </div>
       {boxProduct.length>0 && <div>
         <h1>Aldığınız Ürünler:</h1>
-        
+        <ul className='list'>
           {boxProduct.map((boxProduct,index) => {
             return (
-              <div className='satin-alinan'>
-                <div key={index}> {boxProduct.title}</div>
+              <li className='satin-alinan'>
+                <h5 key={index}> {boxProduct.title}</h5>
                 <img src={boxProduct.image}/>
-              </div>
+              </li>
             )
           })}
-
+        </ul>
         </div>}
         {boxProduct.length<1 && <div>Sepetinizde ürün yoktur.</div>}
     </div>
