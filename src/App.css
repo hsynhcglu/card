@@ -11,11 +11,18 @@
 
 .satin-alinan {
   min-width: 7%;
+  box-shadow: 0 10px 12px 0 rgba(0,0,0, 0.2);
+  margin-right: 10px;
+}
+.satin-alinan > h5 {
+  width: 100%;
+  text-align: center;
 }
 
 .satin-alinan > img {
-  width: auto;
   height: 50px;
+  object-fit: contain;
+  width: 100%
 }
 .list {
   display: flex;
